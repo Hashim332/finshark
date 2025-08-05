@@ -1,0 +1,47 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider/VS Code
+.idea/
+.vscode/
+
+# Dotnet tools and secrets
+*.pfx
+*.snk
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+.vs/
+*.sln.ide
+
+# EF Core Migrations - keep these!
+# Don't ignore these folders/files:
+!Migrations/
+!**/Migrations/*.cs
+!**/Migrations/*.Designer.cs
+!**/Migrations/*.resx
+
+# Logs
+*.log
+
+# Npm/Yarn artifacts if using frontend in project
+node_modules/
+dist/
+build/
+
+# Others
+.env
