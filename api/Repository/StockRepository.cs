@@ -36,6 +36,7 @@ namespace api.Repository
             }
 
             _context.Stock.Remove(stockModel);
+            await _context.SaveChangesAsync();
             return stockModel;
         }
 
