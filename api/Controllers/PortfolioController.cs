@@ -37,7 +37,7 @@ namespace api.Controllers
             var username = User.GetUsername();
             var appUser = await _userManager.FindByNameAsync(username);
             var userPortfolio = await _portfolioRepo.GetUserPortfolio(appUser);
-            return Ok(GetUserPortfolio);
+            return Ok(userPortfolio);
         }
     }
 }
